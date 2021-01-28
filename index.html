@@ -2,32 +2,39 @@
 <html lang="ru">
   <head>
     <!-- Заголовок страницы в браузере -->
-   <title>Научиться учиться</title>
-   <!-- Кодировка страницы -->
+    <title>Научиться учиться</title>
+    <!-- Кодировка страницы -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=0">
-   <!-- initial-scale=1 ширина картинок становится равной ширине экрана. -->
-   <!-- maximum-scale=1 запрещаем увеличивать масштаб -->
-   <!-- user-scalable=0 на остальных устройствах запрещаем масштабировать вёрстку -->
-   <meta name="keywords" content="html,css,javascript"> <!-- в content прописывают ключевые слова сайта -->
-   <meta name="description" content="Страница про различные веб-технологии">
-   <!-- description содержит небольшой текст — около абзаца — рассказывающий, чему посвящён сайт. -->
-   <meta name="author" content="Владимир Крылов"> <!-- указывает автора сайта  -->
-   <!-- Обнуляем CSS -->
-    <link rel="stylesheet" href="/how-to-learn/styles/normalize.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=0"
+    />
+    <!-- initial-scale=1 ширина картинок становится равной ширине экрана. -->
+    <!-- maximum-scale=1 запрещаем увеличивать масштаб -->
+    <!-- user-scalable=0 на остальных устройствах запрещаем масштабировать вёрстку -->
+    <meta name="keywords" content="html,css,javascript" />
+    <!-- в content прописывают ключевые слова сайта -->
+    <meta name="description" content="Страница про различные веб-технологии" />
+    <!-- description содержит небольшой текст — около абзаца — рассказывающий, чему посвящён сайт. -->
+    <meta name="author" content="Владимир Крылов" />
+    <!-- указывает автора сайта  -->
+    <!-- Обнуляем CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css">
     <!-- подключаем style.css -->
-    <link rel="stylesheet" href="/how-to-learn/styles/style.css">
-    <link rel="shortcut icon" href="favicon.ico"> <!-- задаёт изображение во вкладке браузера -->
+    <link rel="stylesheet" href="./styles/style.css">
+<!--     <link rel="shortcut icon" href="favicon.ico" /> -->
+    <!-- задаёт изображение во вкладке браузера -->
   </head>
   <body>
     <div class="page">
       <header id="header" class="header">
         <div class="header__logo">
           <div href="#" class="header__logo-place logo-place">
-            <a href="#header"><img
-                           class="header__logo-place-header"
-              src="/how-to-learn/images/logo_place_header.svg"
-              alt="логотип-Яндекса"
+            <a href="#header"
+              ><img
+                class="header__logo-place-header"
+                src="./images/logo_place_header.svg"
+                alt="логотип-Яндекса"
             /></a>
           </div>
         </div>
@@ -40,7 +47,7 @@
         <div class="header__main-illustration">
           <img
             class="header__main-illustration-image"
-            src="/how-to-learn/images/header-image.png"
+            src="./images/header-image.png"
             alt="header-image"
           />
         </div>
@@ -76,59 +83,62 @@
           <div class="digits__section-title section-title">
             <h2>Цифры и факты</h2>
           </div>
-      <div class="digits__section-subtitle section-subtitle">
-                           <h3>Про учёбу и мозг</h3>
-                                              </div>
-                      <div class="digits__table table">
-                           <ul class="table__cell cell">
-                                                                                 <li class="table__heading heading">86 миллиардов</li>
-                        <li class="table__text text">
-                Число нейронов в мозге человека
-                                                       </li>
+          <div class="digits__section-subtitle section-subtitle">
+            <h3>Про учёбу и мозг</h3>
+          </div>
+          <div class="digits__table table">
+            <ul class="table__cell cell">
+              <li class="table__heading heading">86 миллиардов</li>
+              <li class="table__text text">Число нейронов в мозге человека</li>
             </ul>
             <ul class="table__cell cell">
               <li class="table__heading heading">2.1 миллиарда</li>
               <li class="table__text text">
                 Число нуждающихся в повышении квалификации
               </li>
-              <span class="table__text-subtext" >Всемирный Банк, 2017</span>
+              <span class="table__text-subtext">Всемирный Банк, 2017</span>
             </ul>
             <ul class="table__cell cell">
-                <li class="table__heading heading">1000 терабайт</li>
-                <li class="table__text text">Объём памяти человека</li>
+              <li class="table__heading heading">1000 терабайт</li>
+              <li class="table__text text">Объём памяти человека</li>
             </ul>
-              <ul class="table__cell cell">
-                <li class="table__heading heading">500 триллионов</li>
-                <li class="table__text text">
-                  Число ответственных за обучение нервных синапсов у взрослого
-                  человека
-                </li>
-              </ul>
-              <ul class="table__cell cell">
-                <li class="table__heading heading">420 миллионов</li>
-                <li class="table__text text">Число взрослых людей моложе 25 лет, не имеющих образования для
-                  трудоустройства
-                </li>
-                <span class="table__text-subtext">Всемирный Банк, 2017</span>
-              </ul>
-              <ul class="table__cell cell">
-                <li class="table__heading heading">17–20 лет</li>
-                <li class="table__text text">Пик обучаемости</li>
-              </ul>
-              <ul class="table__cell cell">
-                <li class="table__heading heading">1885 год</li>
-                <li class="table__text text">Открытие кривой забывания</li>
-              </ul>
-              <ul class="table__cell cell">
-                <li class="table__heading heading">1889 год</li>
-                <li class="table__text text">Открытие условного рефлекса</li>
-              </ul>
-            </div>
+            <ul class="table__cell cell">
+              <li class="table__heading heading">500 триллионов</li>
+              <li class="table__text text">
+                Число ответственных за обучение нервных синапсов у взрослого
+                человека
+              </li>
+            </ul>
+            <ul class="table__cell cell">
+              <li class="table__heading heading">420 миллионов</li>
+              <li class="table__text text">
+                Число взрослых людей моложе 25 лет, не имеющих образования для
+                трудоустройства
+              </li>
+              <span class="table__text-subtext">Всемирный Банк, 2017</span>
+            </ul>
+            <ul class="table__cell cell">
+              <li class="table__heading heading">17–20 лет</li>
+              <li class="table__text text">Пик обучаемости</li>
+            </ul>
+            <ul class="table__cell cell">
+              <li class="table__heading heading">1885 год</li>
+              <li class="table__text text">Открытие кривой забывания</li>
+            </ul>
+            <ul class="table__cell cell">
+              <li class="table__heading heading">1889 год</li>
+              <li class="table__text text">Открытие условного рефлекса</li>
+            </ul>
+          </div>
         </section>
-                              <section class="feynman">
+        <section class="feynman">
           <div class="feynman__title">Метод Фейнмана</div>
           <div class="feynman__subtitle">Выучить и не забыть.</div>
-          <div class="feynman__link"><a target="_blank" href="https://lifehacker.ru/metod-fejnmana/">Подробнее &rarr;</a></div>
+          <div class="feynman__link">
+            <a target="_blank" href="https://lifehacker.ru/metod-fejnmana/"
+              >Подробнее &rarr;</a
+            >
+          </div>
         </section>
         <section class="kaufman">
           <div class="kaufman__section-title-theme-dark section-title">
@@ -190,14 +200,18 @@
             </ul>
             <ul class="table__cell-theme-dark table__cell cell">
               <li
-                class="table__heading-theme-dark table__heading heading heading">6</li>
+                class="table__heading-theme-dark table__heading heading heading"
+              >
+                6
+              </li>
               <li class="table__text-theme-dark text">
                 Устраните препятствия для занятий.
               </li>
             </ul>
             <ul class="table__cell-theme-dark table__cell cell">
               <li
-                class="table__heading-theme-dark table__heading heading heading">
+                class="table__heading-theme-dark table__heading heading heading"
+              >
                 7
               </li>
               <li class="table__text-theme-dark text">
@@ -206,7 +220,8 @@
             </ul>
             <ul class="table__cell-theme-dark table__cell cell">
               <li
-                class="table__heading-theme-dark table__heading heading heading">
+                class="table__heading-theme-dark table__heading heading heading"
+              >
                 8
               </li>
               <li class="table__text-theme-dark text">
@@ -215,7 +230,8 @@
             </ul>
             <ul class="table__cell-theme-dark table__cell cell">
               <li
-                class="table__heading-theme-dark table__heading heading heading">
+                class="table__heading-theme-dark table__heading heading heading"
+              >
                 9
               </li>
               <li class="table__text-theme-dark text">
@@ -234,10 +250,7 @@
             </ul>
           </div>
           <div class="kaufman__triangle">
-            <img
-              src="/how-to-learn/images/kaufman-triangle.svg"
-              alt="синий-треугольник"
-            />
+            <img src="./images/kaufman-triangle.svg" alt="синий-треугольник" />
           </div>
         </section>
       </main>
@@ -247,7 +260,7 @@
             <div class="footer__logo">
               <img
                 class="footer__logo-place-footer"
-                src="/how-to-learn/images/logo_place_footer.svg"
+                src="./images/logo_place_footer.svg"
                 alt="логотип-Яндекса"
               />
             </div>
@@ -257,13 +270,21 @@
             <div class="footer__column-heading">О Практикуме</div>
             <div class="footer__column-links">
               <div class="footer__column-link">
-                <a target="_blank" href="https://praktikum.yandex.ru/"><span>Главная</span></a>
+                <a target="_blank" href="https://praktikum.yandex.ru/"
+                  ><span>Главная</span></a
+                >
               </div>
               <div class="footer__column-link">
-                <a target="_blank" href="https://thecode.media/practicum/"><span>Концепция</span></a>
+                <a target="_blank" href="https://thecode.media/practicum/"
+                  ><span>Концепция</span></a
+                >
               </div>
               <div class="footer__column-link">
-                <a target="_blank" href="https://praktikum.yandex.ru/promo/mentors-school/"><span>Наставники</span></a>
+                <a
+                  target="_blank"
+                  href="https://praktikum.yandex.ru/promo/mentors-school/"
+                  ><span>Наставники</span></a
+                >
               </div>
             </div>
           </div>
@@ -274,35 +295,36 @@
                 <a href="#">
                   <div class="footer__social-icon">
                     <img
-                      src="/how-to-learn/images/facebook_color_white.svg"
-                      alt=""/>
+                      src="./images/facebook_color_white.svg"
+                      alt="логотип-фейсбука"
+                    />
                     <span>Facebook</span>
                   </div>
                 </a>
               </div>
             </div>
-              <div class="footer__column-link">
-                <a href="#">
-                  <div class="footer__social-icon">
-                    <img
-                      src="/how-to-learn/images/vk_color_white.svg"
-                      alt=""
-                    />
-                    <span>ВКонтакте</span>
-                  </div>
-                </a>
-              </div>
-              <div class="footer__column-link">
-                <a href="#">
-                  <div class="footer__social-icon">
-                    <img
-                      src="/how-to-learn/images/instagram_color_white.svg"
-                      alt=""
-                    />
-                    <span>Instagram</span>
-                  </div>
-                </a>
-              </div>
+            <div class="footer__column-link">
+              <a href="#">
+                <div class="footer__social-icon">
+                  <img
+                    src="./images/vk_color_white.svg"
+                    alt="логотип-вконтакте"
+                  />
+                  <span>ВКонтакте</span>
+                </div>
+              </a>
+            </div>
+            <div class="footer__column-link">
+              <a href="#">
+                <div class="footer__social-icon">
+                  <img
+                    src="./images/instagram_color_white.svg"
+                    alt="логотип-инстаграма"
+                  />
+                  <span>Instagram</span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </footer>
