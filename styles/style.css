@@ -301,6 +301,7 @@
   box-sizing: border-box;
 }
 .footer__columns {
+  min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
   color: #fff;
@@ -310,7 +311,6 @@
   margin: 0 auto;
 }
 .footer__column {
-  min-height: 350px;
   align-self: space-between;
 }
 .footer__column-content-copyright {
