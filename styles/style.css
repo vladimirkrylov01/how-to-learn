@@ -32,9 +32,9 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+.table__cell_theme-dark {
   width: 200px;
-  color: white;
+  color: #fff;
   margin-right: 0;
   margin-top: 80px;
 }
@@ -101,7 +101,7 @@
 }
 .section-subtitle {
   margin: 0 auto;
-  line-height: 3.4;
+  line-height: 34px;
   font-size: 24px;
   font-weight: 400;
 }
@@ -211,7 +211,7 @@
   margin: 0 auto;
   flex-direction: column;
   position: relative;
-  background-image: url("/how-to-learn/images/feynman.png");
+  background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: 0% 100%;
   height: 790px;
@@ -345,8 +345,6 @@
   font-weight: 700;
 }
 .column__links {
-  /* display: flex; */
-  /* justify-content: space-between; */
   padding-bottom: 16px;
 }
 .footer__column-link a {
