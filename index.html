@@ -5,24 +5,21 @@
     <title>Научиться учиться</title>
     <!-- Кодировка страницы -->
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=0"/>
     <!-- initial-scale=1 ширина картинок становится равной ширине экрана. -->
     <!-- maximum-scale=1 запрещаем увеличивать масштаб -->
     <!-- user-scalable=0 на остальных устройствах запрещаем масштабировать вёрстку -->
-    <meta name="keywords" content="html,css,javascript" />
+    <meta name="keywords" content="html,css,javascript"/>
     <!-- в content прописывают ключевые слова сайта -->
-    <meta name="description" content="Страница про различные веб-технологии" />
+    <meta name="description" content="Страница про различные веб-технологии"/>
     <!-- description содержит небольшой текст — около абзаца — рассказывающий, чему посвящён сайт. -->
-    <meta name="author" content="Владимир Крылов" />
+    <meta name="author" content="Владимир Крылов"/>
     <!-- указывает автора сайта  -->
     <!-- Обнуляем CSS -->
-    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <!-- подключаем style.css -->
-    <link rel="stylesheet" href="./styles/style.css">
-<!--     <link rel="shortcut icon" href="favicon.ico" /> -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
     <!-- задаёт изображение во вкладке браузера -->
   </head>
   <body>
@@ -30,10 +27,9 @@
       <header id="header" class="header">
         <div class="header__logo">
           <div href="#" class="header__logo-place logo-place">
-            <a href="#header"
-              ><img
+            <a href="#header"><img
                 class="header__logo-place-header"
-                src="./images/logo_place_header.svg"
+                src="images/logo_place_header.svg"
                 alt="логотип-Яндекса"
             /></a>
           </div>
@@ -47,15 +43,13 @@
         <div class="header__main-illustration">
           <img
             class="header__main-illustration-image"
-            src="./images/header-image.png"
+            src="images/header-image.png"
             alt="header-image"
           />
         </div>
         <div class="header__square-pic"></div>
       </header>
       <main class="content">
-<!--          -->
-<!------------------------ section description ----------------------->
         <section id="description" class="description">
           <div class="two-columns">
             <div class="two-columns__brief">Главные проблемы в обучении</div>
@@ -81,7 +75,6 @@
             </div>
           </div>
         </section>
- <!------------------------ section digits ----------------------->
         <section class="digits">
           <div class="digits__section-title section-title">
             <h2>Цифры и факты</h2>
@@ -99,7 +92,7 @@
               <li class="table__text text">
                 Число нуждающихся в повышении квалификации
               </li>
-              <li class="table__text-subtext">Всемирный Банк, 2017</li>
+              <span class="table__text-subtext">Всемирный Банк, 2017</span>
             </ul>
             <ul class="table__cell cell">
               <li class="table__heading heading">1000 терабайт</li>
@@ -118,7 +111,7 @@
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
               </li>
-              <li class="table__text-subtext">Всемирный Банк, 2017</li>
+              <span class="table__text-subtext">Всемирный Банк, 2017</span>
             </ul>
             <ul class="table__cell cell">
               <li class="table__heading heading">17–20 лет</li>
@@ -134,7 +127,6 @@
             </ul>
           </div>
         </section>
- <!------------------------ section feynman ----------------------->
         <section class="feynman">
           <div class="feynman__title">Метод Фейнмана</div>
           <div class="feynman__subtitle">Выучить и не забыть.</div>
@@ -144,10 +136,9 @@
             >
           </div>
         </section>
-<!------------------------ section kaufman ----------------------->        
         <section class="kaufman">
           <div class="kaufman__section-title-theme-dark section-title">
-            <h2>Принципы обучения</h2> <!--     dobavil zagolovok     -->
+            Принципы обучения
           </div>
           <div class="kaufman__section-subtitle-theme-dark section-subtitle">
             от Джоша Кауфмана
@@ -255,22 +246,24 @@
             </ul>
           </div>
           <div class="kaufman__triangle">
-            <img src="./images/kaufman-triangle.svg" alt="синий-треугольник" />
+            <img
+              src="images/kaufman-triangle.svg"
+              alt="синий-треугольник"
+            />
           </div>
         </section>
       </main>
-<!------------------------ footer ----------------------->      
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column-content-copyright">
             <div class="footer__logo">
               <img
                 class="footer__logo-place-footer"
-                src="./images/logo_place_footer.svg"
+                src="images/logo_place_footer.svg"
                 alt="логотип-Яндекса"
               />
             </div>
-            <div class="footer__author">&copy 2021. Владимир Крылов</div>
+            <div class="footer__author">&copy 2021.Владимир Крылов</div>
           </div>
           <div class="footer__column footer__column-content-info">
             <div class="footer__column-heading">О Практикуме</div>
@@ -301,8 +294,8 @@
                 <a href="#">
                   <div class="footer__social-icon">
                     <img
-                      src="./images/facebook_color_white.svg"
-                      alt="логотип-фейсбука"
+                      src="images/facebook_color_white.svg"
+                      alt="лого-фейсбук"
                     />
                     <span>Facebook</span>
                   </div>
@@ -312,10 +305,7 @@
             <div class="footer__column-link">
               <a href="#">
                 <div class="footer__social-icon">
-                  <img
-                    src="./images/vk_color_white.svg"
-                    alt="логотип-вконтакте"
-                  />
+                  <img src="images/vk_color_white.svg" alt="лого_вконтакте" />
                   <span>ВКонтакте</span>
                 </div>
               </a>
@@ -324,8 +314,8 @@
               <a href="#">
                 <div class="footer__social-icon">
                   <img
-                    src="./images/instagram_color_white.svg"
-                    alt="логотип-инстаграма"
+                    src="images/instagram_color_white.svg"
+                    alt="лого_инстаграм"
                   />
                   <span>Instagram</span>
                 </div>
