@@ -298,6 +298,7 @@
 /* ----------------------------------------------- footer */
 .footer {
   background-color: #000;
+  box-sizing: border-box;
 }
 .footer__columns {
   padding-top: 60px;
