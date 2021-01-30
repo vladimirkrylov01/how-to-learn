@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   position: relative;
 }
-.header__logo-place {
+.logo_place_header {
   background-repeat: no-repeat;
   position: absolute;
   top: 30px;
@@ -36,6 +36,7 @@
   z-index: 2;
 }
 .header__subtitle {
+  margin: 0;
   width: 388px;
   line-height: 25px;
   font-size: 18px;
@@ -46,9 +47,7 @@
   z-index: 2;
 }
 .header__link {
-  position: absolute;
   text-decoration: none;
-  z-index: 2;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
@@ -59,16 +58,17 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 768px;
+  width: 765px;
   height: 608px;
 }
 .header__square-pic {
   background-color: #2f80ed;
   position: absolute;
   right: 0;
-  top: 64;
-  width: 586px;
-  height: 586px;
+  top: 0;
+  margin-top: 64px;
+  width: 568px;
+  height: 568px;
   order: 1;
 }
 /*------------------------------------- mix*/
@@ -81,6 +81,7 @@
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .section-subtitle {
   text-align: center;
   margin: 0 auto;
@@ -228,7 +229,6 @@
   text-decoration: none;
   padding-right: 48px;
 }
-/* ----------------------------------------------- section kaufman */
 .kaufman {
   background-color: #1f1f1f;
   color: #fff;
@@ -260,7 +260,6 @@
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
-  padding-bottom: 80px;
   z-index: 2;
 }
 .table_theme_dark {
