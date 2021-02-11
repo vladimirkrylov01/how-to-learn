@@ -1,0 +1,12 @@
+.cards__item{
+  max-width: 240px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
+  text-align: center;
+  margin: 0 auto;
+
+}
