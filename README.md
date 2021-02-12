@@ -1,4 +1,4 @@
-<h1 color="green" align="center">Проект "Научиться учиться"</h1>
+<h1 align="center">Проект "Научиться учиться"</h1>
 
 
 Проект, направленный на развитие и практику вёрстки.
@@ -10,3 +10,16 @@
 * Animation
 
 Файловая структура по БЭМ.
+
+-----------------------------------------------------------------
+<h1 align="center">The project "How to learn"</h1>
+
+A project aimed at the development and practice of layout.
+
+
+Technologies used:
+* Flexbox
+* Grid
+* Animation
+
+BEM fil
