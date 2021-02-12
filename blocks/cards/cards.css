@@ -1,13 +1,11 @@
 .cards{
   min-width: 920px;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
-  grid-template-rows: auto;
-  /* align-items: center; */
-  /* align-self: center; */
+  grid-template-columns: repeat(3,minmax(240px,1fr));
+  grid-template-rows: autofill;
+  margin: 0 auto;
   column-gap: 100px;
   padding: 0;
-  /* margin: auto; */
   padding-bottom: 100px;
   margin-block-start: 0em;
   margin-block-end: 0em;

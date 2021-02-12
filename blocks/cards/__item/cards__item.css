@@ -1,5 +1,5 @@
 .cards__item{
-  max-width: 240px;
+  width: 240px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
