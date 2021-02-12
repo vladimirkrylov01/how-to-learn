@@ -22,4 +22,4 @@ Technologies used:
 * Grid
 * Animation
 
-BEM fil
+BEM file structure.
